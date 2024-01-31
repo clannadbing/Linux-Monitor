@@ -56,7 +56,7 @@ docker ps
 将下载好的文件存放在~/Linux-Monitor/docker/build/install/qt/目录下
 ```
 
-![](https://cdn.jsdelivr.net/gh/clannadbing/Image-Hosting@main/20240131/3.png)
+​                                                            ![](https://cdn.jsdelivr.net/gh/clannadbing/Image-Hosting@main/20240131/3.png)
 
 ### 4.  通过项目中dockerfile文件，构建项目镜像
 
@@ -67,7 +67,7 @@ docker ps
   docker build --network host -f base.dockerfile .
   ```
 
- 	  **等待时间会比较长，镜像大小大约4G.**
+​       **等待时间会比较长，镜像大小大约4G.**
 
 * 查看镜像id
 
@@ -75,7 +75,7 @@ docker ps
   docker images
   ```
 
-![](https://cdn.jsdelivr.net/gh/clannadbing/Image-Hosting@main/20240131/4.png)
+​		                                                               ![](https://cdn.jsdelivr.net/gh/clannadbing/Image-Hosting@main/20240131/4.png)
 
 * 命名镜像id为linux:monitor
 
@@ -83,7 +83,7 @@ docker ps
   docker tag f866f4a3e61b linux:monitor
   ```
 
-  ![](https://cdn.jsdelivr.net/gh/clannadbing/Image-Hosting@main/20240131/5.png)
+  ​                                                               ![](https://cdn.jsdelivr.net/gh/clannadbing/Image-Hosting@main/20240131/5.png)
 
 ### 5.  进入docker容器
 

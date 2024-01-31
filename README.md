@@ -20,7 +20,7 @@
 
 ## Demo演示
 
-![](https://cdn.jsdelivr.net/gh/clannadbing/Image-Hosting@main/20240131/2.gif)
+![2](https://github.com/clannadbing/Linux-Monitor/assets/74137370/ed6403a0-4f0d-4a35-ab8a-c051029c8f9c)
 
 ## 环境要求
 

@@ -38,7 +38,7 @@ curl -fsSL https://test.docker.com -o test-docker.sh
 sudo sh test-docker.sh
 ```
 
-### 2. docker加入用户组-o
+### 2. docker加入用户组
 
 ```
 sudo groupadd docker
@@ -67,7 +67,7 @@ docker ps
   docker build --network host -f base.dockerfile .
   ```
 
-​       **等待时间会比较长，镜像大小大约4G.**
+​        **等待时间会比较长，镜像大小大约4G.**
 
 * 查看镜像id
 
